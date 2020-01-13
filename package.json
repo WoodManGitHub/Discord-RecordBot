@@ -1,5 +1,5 @@
 {
-    "name": "discord-record",
+    "name": "Discord-RecordBot",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -7,7 +7,7 @@
         "installMixer": "cd lib/licsonMixer/mixer && node-gyp configure build",
         "start": "node --expose-gc index.js"
     },
-    "author": "Sciuridae Li",
+    "author": "Sciuridae Li, WoodMan",
     "license": "MIT",
     "dependencies": {
         "discord.js": "discordjs/discord.js",
