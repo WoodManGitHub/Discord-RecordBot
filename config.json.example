@@ -1,0 +1,39 @@
+{
+   "debug": false,
+   "discord": {
+      "commandPrefix": "~",
+      "config": {
+         "token": ""
+      },
+      "voiceChannels": [{
+         "channelID": "88111110544175104",
+         "record": {
+            "sendTo": {
+               "type": "telegram",
+               "chatID": -1001142124588
+            },
+            "ignoreUsers": [
+               "285021895529594880",
+               "406502184990146560"
+            ]
+         }
+      }]
+   },
+   "telegram": {
+      "config": {
+         "token": ""
+      }
+   },
+   "sounds": {
+      "Nope.mp3": {
+         "description": "",
+         "commands": [
+            "nope"
+         ],
+         "keywords": [
+            "<:nope:502309683068141569>",
+            "<:nope_angled:502310519815012352>"
+         ]
+      }
+   }
+}

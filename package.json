@@ -1,0 +1,26 @@
+{
+    "name": "discord-record",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "installMixer": "cd lib/licsonMixer/mixer && node-gyp configure build",
+        "start": "node --expose-gc index.js"
+    },
+    "author": "Sciuridae Li",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "discordjs/discord.js",
+        "ffmpeg-static": "^2.4.0",
+        "moment": "^2.24.0",
+        "moment-timezone": "^0.5.26",
+        "nan": "^2.11.1",
+        "node-gyp": "^5.0.3",
+        "node-opus": "^0.3.3",
+        "node-telegram-bot-api": "^0.30.0",
+        "prism-media": "^1.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0"
+    }
+}
