@@ -81,4 +81,4 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-lib/lisconMixer/mixer/building
+lib/lisconMixer/mixer/build
