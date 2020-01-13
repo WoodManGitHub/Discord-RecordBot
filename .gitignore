@@ -82,3 +82,5 @@ typings/
 .dynamodb/
 
 lib/lisconMixer/mixer/build
+
+yarn.lock
